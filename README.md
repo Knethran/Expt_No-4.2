@@ -1,6 +1,3 @@
-
-# Ex.No: Design and Draft a Glass Using Fusion 360
-
 ## AIM
 
 To sketch the given drawing with dimensions and create a 3D glass model using Autodesk Fusion 360.
