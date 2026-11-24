@@ -1,50 +1,80 @@
-# EX No.4.2. CUT SECTION OF SOLIDS
-## DATE:
 
-## AIM: 
-To create the solid model from given drawing and section the solid model
+# Ex.No: Design and Draft a Glass Using Fusion 360
 
-## REQUIREMENTS: 
-1. Autodesk fusion 360
-2. Windows 10
-3. 16 GB of RAM (integrated graphics recommend 1 GB or more)
-4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
+## AIM
 
-## PROCEDURE:
-1.	Open new file and then select sketch icon.
-2.	Select the plane for sketching. 
-3.	Use sketching features (line, circle, arc, rectangle, polygon, etc.,) to draw the given sketch
-
-![image](https://user-images.githubusercontent.com/113594316/198826239-a3d6ffd5-d409-46b0-ba88-3312e89e9834.png)
-
-4.	Use sketch modifying features (cut, trim, mirror, move, etc.,) to edit the sketch.
-
-![image](https://user-images.githubusercontent.com/113594316/198826244-f377f387-16af-4f89-a57d-1808083ce178.png)
-
-5.	Use inspect feature to measure the dimensions of sketch.
-
-![image](https://user-images.githubusercontent.com/113594316/198826250-0e2f4985-18d7-4a07-8b1e-9c9fab11ea41.png)
-
-6.	After finishing the sketch use finish sketch option to finalize the sketch.
-
-![image](https://user-images.githubusercontent.com/113594316/198826257-ccfcfd0c-040a-459e-bb9f-93c375f9177f.png)
-
-7.Use extrude option to convert 3D model from sketch
-
-![image](https://user-images.githubusercontent.com/113594316/198826270-d55912b8-0a02-4b36-acb2-02e9b4b328fd.png)
-
- 8.Use revolve option to convert 2D to 3D.
- 
- ![image](https://user-images.githubusercontent.com/113594316/198826282-7a4844a8-0cb2-4573-8940-9a60356b7d04.png)
-
-## INPUT:
-
-![image](https://user-images.githubusercontent.com/113594316/199409656-c021c100-857a-4ae4-9752-9ae59465c9c2.png)
-
-## OUTPUT:
+To sketch the given drawing with dimensions and create a 3D glass model using Autodesk Fusion 360.
 
 
-## RESULT:
-Thus, the cut section for solid model is created.
+## REQUIREMENTS
+
+- Software: Autodesk Fusion 360
+- Operating System: Windows 10
+- RAM: 16 GB
+- Graphics: Integrated graphics with 2 GB or more recommended
+- Internet: 2.5 Mbps or faster download speed and 500 Kbps or faster upload speed
 
 
+## PROCEDURE
+
+1. Open Autodesk Fusion 360, click on Create Sketch, and select the Front Plane.
+
+<img width="225" height="242" alt="Screenshot 2026-11-11 161214" src="https://github.com/user-attachments/assets/2c999238-9210-4375-9f7a-d6ebabf74009" />
+
+
+2. Under Document Settings, click on Units and change the unit from mm to m.
+
+<img width="210" height="90" alt="Screenshot 2026-11-17 115414" src="https://github.com/user-attachments/assets/b8c2a46f-0d98-40fa-9d3e-05ee2b9e7446" />
+ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+
+<img width="316" height="231" alt="Screenshot 2026-11-17 115430" src="https://github.com/user-attachments/assets/1cbed7cb-56bd-472c-b63d-7005231466c7" />
+
+3. Create the half-profile of the glass using the following dimensions:
+   - Overall height: 3.520 m
+   - Base length: 1.366 m
+   - Base thickness: 0.148 m
+   - Stem height: 1.501 m
+   - Stem thickness: 0.123 m
+4. Draw the curved bowl profile using the following dimensions:
+   - Inner radius: R2.113 m
+   - Outer radius: R2.261 m
+   - Wall thickness: 0.148 m
+   - Horizontal reference distance: 0.721 m
+   - Vertical reference distance: 1.986 m
+<img width="355" height="478" alt="Screenshot 2026-11-17 113408" src="https://github.com/user-attachments/assets/ed6e620d-4e13-4ffc-a352-7f9fdd1e94a4" />
+
+
+
+5. Construct a vertical construction line through the centre of the glass profile and use it as the axis of revolution.
+
+<img width="265" height="377" alt="Screenshot 2026-11-17 113811" src="https://github.com/user-attachments/assets/1c0f4bdf-ea3a-44ce-b389-a1c156ee24e7" />
+
+
+6. After completing the sketch, click on Finish Sketch.
+
+<img width="140" height="105" alt="Screenshot 2026-11-17 100203" src="https://github.com/user-attachments/assets/fe4339f0-42ce-47ac-8d65-30f1bf51f61f" />
+
+
+7. Select the Revolve tool, choose the glass profile, and select the vertical construction line as the axis.
+
+<br>
+
+8. Set the revolution angle to 360° and click OK to create the 3D glass model.
+
+
+## SKETCHES
+
+<img width="382" height="448" alt="Screenshot 2026-11-17 113919" src="https://github.com/user-attachments/assets/57dddec5-d583-4c6a-91f0-e10efd3ea28a" />
+
+
+## OUTPUT
+
+<img width="900" height="630" alt="Screenshot 2026-11-17 115201" src="https://github.com/user-attachments/assets/3a8ee4ca-4cd6-4b59-94b2-131412a16634" />
+
+<img width="982" height="262" alt="Screenshot 2026-11-17 131736" src="https://github.com/user-attachments/assets/6f79c0a6-542b-4b6a-ad9e-ce447a2f126e" />
+
+
+
+## RESULT
+
+Thus, the given glass drawing was successfully sketched and drafted into a 3D model using Autodesk Fusion 360.
